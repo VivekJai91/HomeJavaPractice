@@ -15,8 +15,7 @@ class Main {
         {
             if(hm.containsKey(st.charAt(i)))
             {
-                int count = hm.get(st.charAt(i));
-                hm.put(st.charAt(i),++count);
+                hm.put(st.charAt(i),hm.get(st.charAt(i)+1);
             }
             
         }
